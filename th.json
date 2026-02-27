@@ -13,7 +13,8 @@
     },
     "translation": {
       "helpTranslateBanner": "Help us translate endmin.moe to your language.",
-      "contribute": "Contribute"
+      "contribute": "Contribute",
+      "helpTranslate": "Help Translate"
     },
     "actions": {
       "loading": "Loading...",
@@ -154,6 +155,7 @@
     "resources": "Resources",
     "affiliates": "Affiliates",
     "contactUs": "Contact Us",
+    "supportOnKofi": "Support me on Ko-fi",
     "systemStatus": "System Status",
     "termsOfService": "Terms of Service",
     "feedback": "Feedback",

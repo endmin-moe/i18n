@@ -11,6 +11,10 @@
       "signOut": "Sign out",
       "syncDataBanner": "Sign in to sync your data across all your devices"
     },
+    "translation": {
+      "helpTranslateBanner": "Help us translate endmin.moe to your language.",
+      "contribute": "Contribute"
+    },
     "actions": {
       "loading": "Loading...",
       "cancel": "Cancel",

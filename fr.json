@@ -1,0 +1,783 @@
+{
+  "_meta": {
+    "_comment": "Translation Guide",
+    "_placeholders": "Variables in {curly_braces} should not be translated. Examples: {name}, {count}, {current}, {total}",
+    "_plurals": "Use pipe | to separate singular and plural forms. Example: '{count} item | {count} items'"
+  },
+  "common": {
+    "_comment": "Shared UI elements",
+    "auth": {
+      "signInWithGoogle": "Sign in with Google",
+      "signOut": "Sign out",
+      "syncDataBanner": "Sign in to sync your data across all your devices"
+    },
+    "actions": {
+      "loading": "Loading...",
+      "cancel": "Cancel",
+      "create": "Create",
+      "save": "Save",
+      "saveChanges": "Save Changes",
+      "delete": "Delete",
+      "edit": "Edit",
+      "complete": "Complete",
+      "refresh": "Refresh",
+      "restore": "Restore",
+      "previous": "Previous",
+      "next": "Next",
+      "filter": "Filter",
+      "close": "Close",
+      "customize": "Customize",
+      "download": "Download",
+      "import": "Import",
+      "export": "Export",
+      "search": "Search...",
+      "viewDetails": "View Details"
+    },
+    "status": {
+      "active": "Active",
+      "finished": "Finished",
+      "success": "Success",
+      "error": "Error",
+      "failed": "Failed"
+    },
+    "pagination": {
+      "pageOf": "Page {current} of {total}",
+      "showing": "Showing {from} to {to} of {total}"
+    },
+    "labels": {
+      "permanent": "Permanent",
+      "other": "Other",
+      "free": "FREE",
+      "appearance": "Appearance",
+      "language": "Language",
+      "privacy": "Privacy",
+      "all": "All",
+      "completed": "Completed",
+      "incomplete": "Incomplete",
+      "operator": "Operator",
+      "weapon": "Weapon",
+      "profession": "Profession",
+      "element": "Element",
+      "rarity": "Rarity",
+      "level": "Level",
+      "levelShort": "Lv.{level}",
+      "required": "Required",
+      "owned": "Owned",
+      "needed": "Needed",
+      "location": "Location",
+      "coordinates": "Coordinates",
+      "details": "Details",
+      "comments": "Comments",
+      "attributes": "Attributes",
+      "profile": "Profile",
+      "skills": "Skills",
+      "talents": "Talents",
+      "potentials": "Potentials",
+      "department": "Department",
+      "ascend": "Ascend",
+      "cumulative": "Cumulative",
+      "description": "Description",
+      "multipliers": "Multipliers",
+      "guest": "Guest",
+      "user": "User",
+      "light": "Light",
+      "dark": "Dark",
+      "pity": "Pity",
+      "guarantee": "Guarantee",
+      "sixStarPity": "6 {icon} Pity",
+      "fiveStarPity": "5 {icon} Pity"
+    },
+    "messages": {
+      "noResults": "No results found",
+      "noMatchingResults": "No matching results",
+      "noItemsAvailable": "No items available",
+      "noMaterialsFound": "No materials found",
+      "noGearsFound": "No gears found",
+      "noDescriptionAvailable": "No description available.",
+      "confirmDelete": "Are you sure you want to delete {name} from your planner? This action cannot be undone.",
+      "operatorNotFound": "Operator not found",
+      "weaponNotFound": "Weapon not found",
+      "materialNotFound": "Material not found"
+    },
+    "navigation": {
+      "backToOperators": "Back to Operators",
+      "backToWeapons": "Back to Weapons",
+      "backToMaterials": "Back to Materials",
+      "goTo": "Go to"
+    }
+  },
+  "navigation": {
+    "_comment": "Nav items and page titles",
+    "home": "Home",
+    "database": "Database",
+    "operators": "Operators",
+    "weapons": "Weapons",
+    "materials": "Materials",
+    "gears": "Gears",
+    "tracker": "Tracker",
+    "headhuntTracker": "Headhunt Tracker",
+    "globalStats": "Global Statistics",
+    "leaderboard": "Leaderboard",
+    "shareHeadhunt": "Share Headhunt",
+    "importPulls": "Import Pulls",
+    "tools": "Tools",
+    "planner": "Ascension Planner",
+    "achievements": "Achievements",
+    "timeline": "Event Timeline",
+    "articles": "Articles",
+    "interactiveMap": "Interactive Map",
+    "communityGuides": "Community Guides",
+    "settings": "Settings",
+    "privacyPolicy": "Privacy Policy",
+    "descriptions": {
+      "operators": "Browse all playable characters",
+      "weapons": "Explore weapon database",
+      "materials": "View in-game materials",
+      "headhuntTracker": "Track your gacha history",
+      "globalStats": "View community global pull statistics",
+      "leaderboard": "View top players and rankings",
+      "importPulls": "Import your gacha history",
+      "planner": "Plan operator and weapon upgrades",
+      "interactiveMap": "Explore maps with collectibles and points of interest",
+      "communityGuides": "View community guides"
+    }
+  },
+  "footer": {
+    "_comment": "Footer links and text",
+    "description": "Your comprehensive companion for Arknights: Endfield. Our goal is to provide you with the best tools and resources to enhance your Arknights: Endfield gaming experience.",
+    "community": "Community",
+    "company": "Company",
+    "resources": "Resources",
+    "affiliates": "Affiliates",
+    "contactUs": "Contact Us",
+    "systemStatus": "System Status",
+    "termsOfService": "Terms of Service",
+    "feedback": "Feedback",
+    "copyright": "© 2025 - {year} endmin.moe",
+    "disclaimer": "endmin.moe is an unofficial fan-made website for Arknights: Endfield. All game assets and trademarks belong to their respective owners."
+  },
+  "game": {
+    "_comment": "Game terms and attributes",
+    "attributes": {
+      "strength": "Strength",
+      "agility": "Agility",
+      "intellect": "Intellect",
+      "will": "Will",
+      "hp": "HP",
+      "attack": "Attack",
+      "defense": "Defense"
+    },
+    "servers": {
+      "asia": "Asia",
+      "america": "America",
+      "europe": "Europe",
+      "serverLabel": "{name} Server"
+    },
+    "currencies": {
+      "oroberyl": "Oroberyl"
+    },
+    "talents": {
+      "talent": "Talent {number}",
+      "unlocksAt": "Unlocks at Break Stage {stage}"
+    }
+  },
+  "pages": {
+    "_comment": "Page content by route",
+    "home": {
+      "hero": {
+        "description": "Track your pulls, view global statistics, plan operator ascensions, explore guides, and browse the complete Arknights: Endfield database."
+      },
+      "quicklinks": {
+        "title": "Quick Links"
+      },
+      "news": {
+        "title": "Latest News",
+        "all": "All",
+        "news": "News",
+        "notices": "Notices",
+        "events": "Events",
+        "empty": "No news available",
+        "emptyDesc": "Check back later for updates"
+      }
+    },
+    "tracker": {
+      "poolType": {
+        "chartered_headhunting": "Chartered Headhunting",
+        "arsenal_issue": "Arsenal Issue",
+        "solid_ice_issue": "Solid Ice Issue",
+        "cosmic_voice_issue": "Cosmic Voice Issue",
+        "far_expedition_issue": "Far Expedition Issue",
+        "rising_mount_issue": "Rising Mount Issue",
+        "thunderous_issue": "Thunderous Issue",
+        "basic_headhunting": "Basic Headhunting",
+        "new_horizons_headhunting": "New Horizons Headhunting"
+      },
+      "banners": {
+        "graffiti_issue": "Graffiti Issue",
+        "hues_of_passion": "Hues of Passion",
+        "express_delivery_issue": "Express Delivery Issue",
+        "the_floaty_messenger": "The Floaty Messenger",
+        "smelting_forge_issue": "Smelting Forge Issue",
+        "scars_of_the_forge": "Scars of the Forge",
+        "all_banners": "All Banners"
+      },
+      "filterBanners": "Filter Banners",
+      "filterBannersDesc": "Show or hide banners from the sidebar",
+      "stats": {
+        "totalHeadhunting": "Total Headhunting",
+        "sixStarPulls": "6 {icon} Pulls",
+        "fiveStarPulls": "5 {icon} Pulls",
+        "pullRatio": "Pull Ratio",
+        "pullRatioTooltip": "What percentage of your total pulls were {rarity}-stars?",
+        "averagePity": "Average Pity",
+        "averagePityTooltip": "What is your average {rarity}-star pity?",
+        "averageSixStarPity": "Average 6 {icon} Pity",
+        "rateUp": "Rate Up",
+        "rateUpTooltip": "What percentage of your pulls were rate up?",
+        "pullMoreToUnlock": "Pull more to unlock",
+        "rarityLuckRating": "{rarity} {icon} Luck",
+        "luckierThan": "Luckier than {percent}% of users",
+        "lessLuckyThan": "Unluckier than {percent}% of users"
+      },
+      "recentHeadhunting": "Recent Headhunting",
+      "headhuntingHistory": "Headhunting History",
+      "headhunting": "Headhunting",
+      "noRecentHeadhunting": "No recent headhunting found.",
+      "noHeadhunting": "No headhunting records found.",
+      "selectProfilePrompt": "Please select a profile to view headhunting history.",
+      "pullNo": "Pull No.",
+      "itemName": "Item Name",
+      "rarity": "Rarity",
+      "pity": "Pity",
+      "dateObtained": "Date Obtained",
+      "share": {
+        "downloadSuccess": "Share card downloaded successfully",
+        "downloadError": "Failed to download share card",
+        "recentSixStarHeadhunting": "Recent 6 {icon} Headhunting",
+        "noSixStarPulls": "No 6 {icon} pulls yet",
+        "customizeTitle": "Customize Share Card",
+        "customizeDesc": "Personalize your headhunt tracker share card",
+        "dataSettings": "Data Settings",
+        "showPlayerUid": "Show Player UID",
+        "characterBackground": "Character Background",
+        "searchCharacters": "Search characters...",
+        "noCharactersFound": "No characters found",
+        "bannerFilter": "Banner Filter",
+        "bannerFilterDesc": "Filter by specific banner"
+      },
+      "import": {
+        "privacyTitle": "Privacy & Security",
+        "privacyDesc": "Your token is only used temporarily to fetch your pull history and is never stored. All pull data is stored locally on your device and associated with your current profile.",
+        "pasteFromClipboard": "Paste from clipboard",
+        "importing": "Importing...",
+        "importPullHistory": "Import Pull History",
+        "menuPath": "Menu → Headhunt → Details → Headhunting Records",
+        "androidGuide": {
+          "skportDailyCheckin": "SKPORT Daily Check-in",
+          "howToCreateBookmark": "How to create a bookmark:",
+          "bookmarkSteps": {
+            "step1": "Copy the code above",
+            "step2": "Right-click your bookmarks bar → Add page/bookmark",
+            "step3": "Name it \"Endfield Token\"",
+            "step4": "Paste the code into the URL field",
+            "step5": "Save"
+          },
+          "step1": {
+            "title": "Login to SKPORT",
+            "description": "Open {link} and login with your game account."
+          },
+          "step2": {
+            "title": "Create Bookmarklet",
+            "description": "Copy the bookmarklet code and create a bookmark in your browser."
+          },
+          "step3": {
+            "title": "Run Bookmarklet",
+            "description": "While on {skport}, type the bookmark name in the address bar, select it from suggestions, and choose your server region."
+          },
+          "step4": {
+            "title": "Paste Token Data",
+            "description": "Paste the token data below."
+          }
+        },
+        "windowsGuide": {
+          "skip": "Skip",
+          "enableRequestly": "Enable Requestly system-wide",
+          "yes": "Yes",
+          "copyUrl": "Copy URL",
+          "step1": {
+            "title": "Download and Install Requestly",
+            "description": "Download Requestly from {link}. It's free and open source."
+          },
+          "step2": {
+            "title": "Setup Requestly",
+            "description": "Open Requestly and click {skip} on the welcome screen. Then click {enable} to start intercepting traffic."
+          },
+          "step3": {
+            "title": "Install Certificate",
+            "description": "When prompted to install the certificate, click {yes}. This allows Requestly to intercept HTTPS traffic."
+          },
+          "step4": {
+            "title": "Open Headhunting Records",
+            "description": "Launch Arknights: Endfield, go to {menu} tab."
+          },
+          "step5": {
+            "title": "Find Network Request",
+            "description": "In Requestly, look for a request to {url}."
+          },
+          "step6": {
+            "title": "Copy URL",
+            "description": "Right-click on the request and select {copy}."
+          },
+          "step7": {
+            "title": "Paste URL",
+            "description": "Paste the URL below."
+          }
+        },
+        "windowsPowershellGuide": {
+          "windowsPowershell": "Windows PowerShell",
+          "terminal": "Terminal",
+          "step1": {
+            "title": "Open Headhunting Records",
+            "description": "Launch Arknights: Endfield, go to {menu} tab and wait for it to load."
+          },
+          "step2": {
+            "title": "Open PowerShell",
+            "description": "Press {winX} and select {powershell} or {terminal}."
+          },
+          "step3": {
+            "title": "Run PowerShell Command",
+            "description": "Copy and paste the command below into PowerShell and press {enter}."
+          },
+          "step4": {
+            "title": "Paste Token Data",
+            "description": "Paste the token data below."
+          }
+        },
+        "iosGuide": {
+          "safariAlert": "Set Safari as Default Browser",
+          "safariAlertDesc": "If you have another browser installed, make sure to set Safari as your default browser in Settings → Safari → Default Browser App before proceeding.",
+          "videoTutorial": "Video Tutorial",
+          "step1": {
+            "title": "Download Stream App",
+            "description": "Download {link} from the App Store."
+          },
+          "step2": {
+            "title": "Allow VPN",
+            "description": "Open the app, then allow VPN in system preferences ({settings})."
+          },
+          "step3": {
+            "title": "Install CA",
+            "description": "Click {sniff} on Stream App → {installCA} → A popup window will appear and choose {allow} → Now CA is downloaded."
+          },
+          "step4": {
+            "title": "Install Certificate",
+            "description": "Go to {settings} → Click on {streamCA} and install."
+          },
+          "step5": {
+            "title": "Open Game",
+            "description": "Open Arknights: Endfield then go to {menu}, stay on that page."
+          },
+          "step6": {
+            "title": "Start Sniffing",
+            "description": "Back to Stream App → Choose {trusted} → Tap {sniff} Button."
+          },
+          "step7": {
+            "title": "Open Headhunting Records",
+            "description": "Back to Arknights: Endfield then open the {records} tab."
+          },
+          "step8": {
+            "title": "Wait for Page to Load",
+            "description": "Wait for page to load."
+          },
+          "step9": {
+            "title": "Stop Sniffing",
+            "description": "Back to Stream App → {stop}."
+          },
+          "step10": {
+            "title": "Find Network Request",
+            "description": "Click {history} → Choose a request to {url}."
+          },
+          "step11": {
+            "title": "Copy URL",
+            "description": "Click {request} tab, then copy the link."
+          },
+          "step12": {
+            "title": "Paste URL",
+            "description": "Paste the URL below."
+          },
+          "streamApp": "Stream - Network Debug Tool",
+          "settingsVpn": "Settings → General → VPN",
+          "settingsVpnDevice": "Settings → General → VPN & Device management",
+          "sniffNow": "Sniff Now",
+          "installCA": "Install CA",
+          "allow": "Allow",
+          "streamCA": "Stream Generated CA",
+          "menuHeadhunt": "Menu → Headhunt → Details",
+          "trusted": "I've trusted",
+          "headhuntingRecords": "Headhunting Records",
+          "stopSniffing": "Stop Sniffing",
+          "sniffHistory": "Sniff History",
+          "requestTab": "Request"
+        }
+      }
+    },
+    "globalStats": {
+      "selectBanner": "Select Banner",
+      "totalUsers": "Total Users",
+      "totalPulls": "Total Pulls",
+      "totalOroberyl": "Total Oroberyl",
+      "dataChangeNote": "Data may change until {date}",
+      "dataChangeTooltip": "In-game pull history expires after 3 months. Data updates as more users import their records.",
+      "pullsPerDay": "Pulls per day",
+      "pullsPerDayDesc": "Showing pulls per day and rarity distribution",
+      "pullsPerServer": "Pulls per Server",
+      "pullsPerServerDesc": "Showing distribution of pulls per server",
+      "pullsPerPity": "{rarity} {icon} Pulls per Pity",
+      "pullsPerPityDesc": "Showing total pulls per pity number",
+      "potentialDistribution": "{rarity} {icon} Potential Distribution",
+      "potentialDistributionDesc": "Showing how many duplicates players have",
+      "pullsPerItem": "{rarity} {icon} Pulls",
+      "pullsPerItemDesc": "Showing pulls per item",
+      "noDataAvailable": "No data available",
+      "allTime": "All time",
+      "last7Days": "Last 7 days",
+      "pullsCount": "{count} Pull | {count} Pulls",
+      "serverTooltip": "{count} pulls ({percentage}%)",
+      "pityTooltip": {
+        "pullNumber": "Pull #{number}",
+        "totalPulls": "Total Pulls: {count}",
+        "chance": "Chance: {percentage}%"
+      },
+      "potentialTooltip": {
+        "total": "Total:",
+        "players": "{count} player | {count} players"
+      },
+      "playersAxis": "Players"
+    },
+    "timeline": {
+      "selectServer": "Select Server",
+      "selectVersion": "Select Version",
+      "showLocalTime": "Show times adjusted to your local time zone",
+      "noEvents": "No events found for this version",
+      "dailyResetTimers": "Daily Reset Timers",
+      "compareLocalTime": "Compare your local time to server times",
+      "yourLocalTime": "Your Local Time",
+      "serverTime": "Server Time",
+      "serverTimesNote": "Server times are shown in their respective time zones.",
+      "dailyResetIn": "Daily Reset in",
+      "duration": "Duration",
+      "localTime": "Local Time",
+      "versionLabel": "Version {number}",
+      "startsIn": "Starts in {time}",
+      "timeLeft": "{time} left"
+    },
+    "achievements": {
+      "exportAsJson": "Export as JSON",
+      "completedCount": "Completed ({completed}/{total})",
+      "filterByCompletion": "Filter by completion",
+      "showingResults": "Showing {filtered} of {total} achievements"
+    },
+    "planner": {
+      "addPlanner": "Add Planner",
+      "addOperator": "Add Operator",
+      "addWeapon": "Add Weapon",
+      "configureGoal": "Configure Goal",
+      "editGoal": "Edit Goal",
+      "deleteGoal": "Delete Goal",
+      "addGoal": "Add Goal",
+      "ascensionLevel": "Ascension Level",
+      "levelRange": "Level Range",
+      "skills": "Skills",
+      "materialSummary": "Material Summary",
+      "noMaterials": "Add operators or weapons to see required materials",
+      "noMaterialsRequired": "No materials required",
+      "noGoals": "No goals yet",
+      "noGoalsDesc": "Add operators or weapons to start planning"
+    },
+    "map": {
+      "locationDetails": "Location Details",
+      "markAsFound": "Mark as Found",
+      "markAsNotFound": "Mark as Not Found",
+      "helpMessage": "Help us grow by sharing this tool with fellow Endministrators on social media and Discord servers. The more players join, the richer our community discussions become.",
+      "thankYou": "Thank you for your support!"
+    },
+    "settings": {
+      "general": {
+        "title": "General",
+        "localization": {
+          "title": "Localization",
+          "description": "Configure your language and regional preferences.",
+          "siteLanguage": "Site Language",
+          "siteLanguageDesc": "Select your preferred language for the interface."
+        },
+        "game": {
+          "title": "Game Settings",
+          "description": "Configure your game-related preferences.",
+          "gameServer": "Game Server",
+          "gameServerDesc": "Select your primary game server for accurate event times."
+        }
+      },
+      "account": {
+        "title": "Account",
+        "description": "Manage your Google account and sync settings.",
+        "signedInAs": "Signed in as",
+        "signedInAsDesc": "Your currently connected Google account.",
+        "notSignedIn": "Not signed in",
+        "notSignedInDesc": "Please sign in with Google to enable sync features.",
+        "lastSync": "Last Sync",
+        "lastSyncDesc": "The last time your data was synced with Google Drive.",
+        "neverSynced": "Never synced",
+        "syncSettings": "Sync Settings",
+        "syncSettingsDesc": "Configure how your data syncs with Google Drive.",
+        "autoSync": "Auto-sync",
+        "autoSyncDesc": "Automatically sync your data when changes are made.",
+        "autoSyncEnabled": "Auto-sync Enabled",
+        "autoSyncEnabledDesc": "Your data will automatically sync to Google Drive.",
+        "autoSyncDisabled": "Auto-sync Disabled",
+        "autoSyncDisabledDesc": "You'll need to manually sync your data.",
+        "manualSync": "Manual Sync",
+        "manualSyncDesc": "Manually trigger a sync with Google Drive.",
+        "syncNow": "Sync Now",
+        "syncFailed": "Sync Failed",
+        "syncFailedDesc": "Failed to sync data with Google Drive. Please try again.",
+        "downloadRemote": "Download Remote Data",
+        "downloadRemoteDesc": "Download and restore your data from Google Drive.",
+        "downloadNow": "Download Now",
+        "downloadSuccess": "Data Downloaded",
+        "downloadSuccessDesc": "Successfully downloaded and restored data from Google Drive.",
+        "downloadFailed": "Download Failed",
+        "downloadFailedDesc": "Failed to download data from Google Drive. Please try again.",
+        "noRemoteData": "No Remote Data",
+        "noRemoteDataDesc": "No data found in Google Drive to download.",
+        "dataHistory": "Data History",
+        "dataHistoryDesc": "View and restore from your Google Drive backup files.",
+        "backupFiles": "Backup Files",
+        "signInToViewBackups": "Sign in with Google to view your backup history",
+        "noBackupsFound": "No backup files found",
+        "size": "Size"
+      },
+      "data": {
+        "title": "Data",
+        "description": "Backup and restore your game data."
+      },
+      "privacy": {
+        "title": "Privacy",
+        "description": "Manage your privacy preferences and data sharing settings.",
+        "globalStats": "Contribute to Global Statistics",
+        "globalStatsDesc": "Help improve the community by sharing your pull data anonymously for global statistics.",
+        "optInSuccess": "Opted In",
+        "optInSuccessDesc": "Thank you for contributing to global statistics!",
+        "optOutSuccess": "Opted Out",
+        "optOutSuccessDesc": "Your data will no longer be shared with global statistics.",
+        "dataCollection": "Data Collection",
+        "dataCollectionDesc": "Learn about what data we collect and how it's used.",
+        "whatWeCollect": "What We Collect",
+        "collectPullData": "Pull history and results (characters/weapons obtained)",
+        "collectPityCounters": "Pity counter progress and reset information",
+        "collectBannerStats": "Banner pull counts and success rates",
+        "collectCharacterStats": "Character and weapon acquisition statistics",
+        "howWeUseData": "How We Use Your Data",
+        "howWeUseDataDesc": "Your anonymized pull data helps us create accurate global statistics, including average pity rates, banner success rates, and character/weapon popularity. This information benefits the entire community by providing insights into game mechanics and pull probabilities.",
+        "anonymized": "Fully Anonymized",
+        "anonymizedDesc": "All submitted data is completely anonymized and cannot be traced back to you. We only collect statistical information to help the community understand pull rates and probabilities."
+      }
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "description": "Learn how we collect, use, and protect your data."
+    }
+  },
+  "features": {
+    "_comment": "Cross-page features",
+    "profiles": {
+      "activeProfile": "Active Profile",
+      "noActiveProfile": "No Active Profile",
+      "allProfiles": "All Profiles",
+      "allProfilesDesc": "Manage your game profiles and switch between them.",
+      "profileCount": "{count} profile | {count} profiles",
+      "createProfile": "Create Profile",
+      "editProfile": "Edit Profile",
+      "deleteProfile": "Delete Profile",
+      "profileName": "Profile Name",
+      "profileNameDesc": "Enter a name for your profile",
+      "profileNamePlaceholder": "My Profile",
+      "mainProfile": "Main",
+      "lastModified": "Last modified",
+      "noProfiles": "No profiles found",
+      "confirmDelete": "Are you sure you want to delete \"{name}\"?",
+      "confirmDeleteWarning": "This action cannot be undone. All achievement and planner data for this profile will be permanently deleted.",
+      "actions": {
+        "exportData": "Export Data",
+        "exportDataDesc": "Download all your profiles and data as a backup file.",
+        "importData": "Import Data",
+        "importDataDesc": "Restore your profiles and data from a backup file.",
+        "importDropzone": "Drop your .endmin file here",
+        "importDropzoneDesc": ".endmin files (max. 10MB)"
+      },
+      "messages": {
+        "switchSuccess": "Profile Switched",
+        "switchSuccessDesc": "Successfully switched to {name}",
+        "switchError": "Failed to Switch Profile",
+        "switchErrorDesc": "An error occurred while switching profiles. Please try again.",
+        "exportSuccess": "Data Exported",
+        "exportSuccessDesc": "Your data has been exported successfully",
+        "exportError": "Export Failed",
+        "exportErrorDesc": "An error occurred while exporting your data",
+        "importSuccess": "Data Imported",
+        "importSuccessDesc": "Your data has been imported successfully",
+        "importError": "Import Failed",
+        "importErrorDesc": "An error occurred while importing your data",
+        "importErrorInvalidFile": "Invalid file format. Please select a valid .endmin file.",
+        "importErrorFileSize": "File is too large. Maximum size is 10MB.",
+        "createSuccess": "Profile Created",
+        "createSuccessDesc": "Successfully created profile \"{name}\"",
+        "createError": "Failed to Create Profile",
+        "createErrorDesc": "An error occurred while creating the profile. Please try again.",
+        "editSuccess": "Profile Updated",
+        "editSuccessDesc": "Successfully updated profile to \"{name}\"",
+        "editError": "Failed to Update Profile",
+        "editErrorDesc": "An error occurred while updating the profile. Please try again.",
+        "deleteSuccess": "Profile Deleted",
+        "deleteSuccessDesc": "Successfully deleted profile \"{name}\"",
+        "deleteError": "Failed to Delete Profile",
+        "deleteErrorDesc": "An error occurred while deleting the profile. Please try again."
+      },
+      "errors": {
+        "emptyName": "Invalid Profile Name",
+        "emptyNameDesc": "Profile name cannot be empty or contain only whitespace."
+      }
+    },
+    "googleDrive": {
+      "_comment": "Google Drive sync",
+      "syncSuccess": "Data synced to Google Drive",
+      "syncFailed": "Sync failed",
+      "syncConflict": "Sync conflict",
+      "syncConflictDesc": "Local and remote data differ. Please choose which to keep.",
+      "conflictResolved": "Conflict resolved",
+      "conflictResolvedLocal": "Local data backed up to Google Drive",
+      "conflictResolvedRemote": "Remote data restored and backed up",
+      "resolutionFailed": "Resolution failed",
+      "restored": "Restored",
+      "restoredDesc": "Data restored from backup",
+      "restoreFailed": "Restore failed"
+    },
+    "pullImport": {
+      "_comment": "Pull import toasts",
+      "noProfileSelected": "No Profile Selected",
+      "noProfileSelectedDesc": "Please select or create a profile first",
+      "urlRequired": "URL Required",
+      "urlRequiredDesc": "Please enter the API URL from the network request",
+      "invalidUrl": "Invalid URL",
+      "invalidUrlDesc": "Please enter a valid URL.",
+      "tokenRequired": "Token Required",
+      "tokenRequiredDesc": "Please enter your token",
+      "serverRequired": "Server Required",
+      "serverRequiredDesc": "Please select your server region",
+      "tokenDataRequired": "Token Data Required",
+      "tokenDataRequiredDesc": "Please paste the token data from the bookmarklet",
+      "invalidFormat": "Invalid Format",
+      "invalidFormatDesc": "Token data should be in format: token|server_id or oauth_token|token|server_id",
+      "invalidData": "Invalid Data",
+      "invalidDataDesc": "Could not parse token or server ID",
+      "invalidServerId": "Invalid Server ID",
+      "invalidServerIdDesc": "Server ID must be a number",
+      "importSuccessful": "Import Successful",
+      "importSuccessfulDesc": "Imported {new} new pulls ({total} total)",
+      "noNewPulls": "No New Pulls",
+      "noNewPullsDesc": "Your pull history is already up to date",
+      "importFailed": "Import Failed",
+      "importFailedDesc": "Unknown error occurred",
+      "urlPasted": "URL Pasted",
+      "urlPastedDesc": "URL has been pasted from clipboard",
+      "tokenPasted": "Token Pasted",
+      "tokenPastedDesc": "Token has been pasted from clipboard",
+      "tokenDataPasted": "Token Data Pasted",
+      "tokenDataPastedDesc": "Token data has been pasted from clipboard",
+      "pasteFailed": "Paste Failed",
+      "pasteFailedDesc": "Could not read from clipboard"
+    },
+    "comments": {
+      "_comment": "Comment system",
+      "anonymous": "Anonymous",
+      "edited": "edited",
+      "reply": "Reply",
+      "title": "Comments",
+      "sort": {
+        "top": "Top",
+        "newest": "Newest"
+      },
+      "placeholders": {
+        "editComment": "Edit your comment...",
+        "writeReply": "Write a reply...",
+        "writeComment": "Write a comment..."
+      },
+      "submitLabels": {
+        "comment": "Comment"
+      },
+      "imageUpload": {
+        "label": "Upload an image",
+        "description": "SVG, PNG, JPG or GIF (max. 2MB)"
+      },
+      "usernameRequired": {
+        "title": "Username Required",
+        "description": "You need to set a username before you can comment.",
+        "action": "Set Username"
+      },
+      "authRequired": {
+        "title": "Authorization required",
+        "description": "Sign in to leave a comment.",
+        "action": "Sign in with Google"
+      },
+      "empty": "No comments yet. Be the first to comment!",
+      "deleteModal": {
+        "title": "Delete Comment",
+        "description": "Are you sure you want to delete this comment? This action cannot be undone."
+      },
+      "messages": {
+        "posted": "Comment posted",
+        "postFailed": "Failed to post comment",
+        "updated": "Comment updated",
+        "updateFailed": "Failed to update comment",
+        "deleted": "Comment deleted",
+        "deleteFailed": "Failed to delete comment",
+        "replyPosted": "Reply posted",
+        "replyFailed": "Failed to post reply",
+        "errorOccurred": "An error occurred"
+      }
+    }
+  },
+  "seo": {
+    "_comment": "SEO meta tags",
+    "siteName": "Arknights: Endfield Tools and Database",
+    "siteDescription": "Your ultimate Arknights: Endfield companion. Track pulls, analyze pity counters, view global stats, plan factory builds, and access comprehensive guides to optimize your gameplay.",
+    "pages": {
+      "headhuntTracker": "Track your Arknights: Endfield gacha pulls, analyze pity counters, and view detailed pull history across all banners.",
+      "shareHeadhunt": "Share your Arknights: Endfield headhunt tracker statistics and pull history with a beautiful customizable card.",
+      "globalStats": "View global player statistics for Arknights: Endfield. Analyze pull rates, pity distributions, server breakdowns, and item popularity across the community.",
+      "operators": "Browse all playable operators in Arknights: Endfield. Filter by profession, rarity, and type. View detailed stats, skills, and upgrade materials.",
+      "weapons": "Explore all weapons in Arknights: Endfield. Filter by rarity, view stats, skills, and breakthrough materials for each weapon.",
+      "materials": "Browse all materials in Arknights: Endfield. Filter by rarity, view material details, rarity, and usage for operator and weapon upgrades.",
+      "gears": "Explore all equipment suits in Arknights: Endfield. View gear set bonuses, passive effects, and required pieces for each suit.",
+      "planner": "Plan operator and weapon upgrades in Arknights: Endfield. Calculate required materials for ascension, skills, and talents with our comprehensive planner.",
+      "achievements": "Track your achievements and progress in Arknights: Endfield. View all achievement categories, groups, and completion statistics.",
+      "timeline": "View the complete event timeline for Arknights: Endfield. Track current and upcoming events, banners, and activities with real-time countdowns.",
+      "interactiveMap": "Explore interactive maps of Arknights: Endfield with detailed locations, collectibles, and points of interest across all regions.",
+      "operatorDetails": "View detailed information for {name} in Arknights: Endfield. Check attributes, skills, talents, ascension materials, and more.",
+      "weaponDetails": "View detailed information for {name} in Arknights: Endfield. Check weapon stats, skills, breakthrough materials, and upgrade requirements.",
+      "settings": {
+        "general": "Configure your language, regional preferences, and game server settings.",
+        "account": "Manage your Google account connection and sync settings for cloud backup.",
+        "data": "Manage your game profiles, export and import your data for backup and restore.",
+        "privacy": "Control your privacy preferences and manage global statistics contribution."
+      },
+      "import": {
+        "index": "Import your Arknights: Endfield pull history from game logs",
+        "indexTitle": "Import Pull History",
+        "android": "Import your Arknights: Endfield pull history from Android using Bookmarklet",
+        "androidTitle": "Import Pull History - Android",
+        "ios": "Import your Arknights: Endfield pull history from iOS",
+        "iosTitle": "Import Pull History - iOS"
+      }
+    }
+  }
+}

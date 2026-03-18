@@ -354,7 +354,9 @@
           },
           "step3": {
             "title": "Run PowerShell Command",
-            "description": "Copy and paste the command below into PowerShell and press {enter}."
+            "description": "Copy and paste the command below into PowerShell and press {enter}.",
+            "securityWarning": "Running scripts from the internet can be dangerous. You should {0} before running.",
+            "reviewScript": "review the script"
           },
           "step4": {
             "title": "Paste URL",

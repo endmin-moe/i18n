@@ -363,6 +363,27 @@
             "description": "Paste the URL below."
           }
         },
+        "macosGuide": {
+          "terminal": "Terminal",
+          "step1": {
+            "title": "Open Headhunting Records",
+            "description": "Launch Arknights: Endfield, go to {menu} tab and wait for it to load."
+          },
+          "step2": {
+            "title": "Open Terminal",
+            "description": "Press {cmdSpace} and type {terminal}, then press Enter."
+          },
+          "step3": {
+            "title": "Run Terminal Command",
+            "description": "Copy and paste the command below into Terminal and press {enter}.",
+            "securityWarning": "Running scripts from the internet can be dangerous. You should {0} before running.",
+            "reviewScript": "review the script"
+          },
+          "step4": {
+            "title": "Paste URL",
+            "description": "Paste the URL below."
+          }
+        },
         "iosGuide": {
           "safariAlert": "Set Safari as Default Browser",
           "safariAlertDesc": "If you have another browser installed, make sure to set Safari as your default browser in Settings → Safari → Default Browser App before proceeding.",
@@ -786,7 +807,9 @@
         "android": "Import your Arknights: Endfield pull history from Android using Bookmarklet",
         "androidTitle": "Import Pull History - Android",
         "ios": "Import your Arknights: Endfield pull history from iOS",
-        "iosTitle": "Import Pull History - iOS"
+        "iosTitle": "Import Pull History - iOS",
+        "macos": "Import your Arknights: Endfield pull history from macOS",
+        "macosTitle": "Import Pull History - macOS"
       }
     }
   }

@@ -357,8 +357,8 @@
             "description": "Copy and paste the command below into PowerShell and press {enter}."
           },
           "step4": {
-            "title": "Paste Token Data",
-            "description": "Paste the token data below."
+            "title": "Paste URL",
+            "description": "Paste the URL below."
           }
         },
         "iosGuide": {
